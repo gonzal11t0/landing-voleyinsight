@@ -50,6 +50,7 @@ header img{height:34px;width:auto}
 .feat div{border-left:3px solid var(--blue);padding-left:20px}
 .feat p{color:var(--mute)}
 .gallery{display:grid;gap:30px;margin-top:34px}
+.gallery>figure{min-width:0}
 .scroll{overflow-x:auto}
 .scroll img{min-width:700px}
 .steps{list-style:none;counter-reset:s;margin-top:30px;display:grid;gap:22px}
@@ -73,6 +74,7 @@ footer{padding:26px 0;color:var(--mute);font-size:14px;text-align:center}
  .feat{grid-template-columns:repeat(3,1fr)}
  .gallery{grid-template-columns:1fr 1fr}
  .gallery .wide{grid-column:1/-1}
+.gallery>figure{min-width:0}
  .plans{grid-template-columns:repeat(2,1fr)}
  .bar{display:none}body{padding-bottom:0}
 }
